@@ -1,0 +1,107 @@
+/* background color */
+.bg-very-dark-blue {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.bg-dark-blue {
+    background-color: hsl(216, 50%, 16%);
+}
+
+/* text color */
+.soft-blue {
+    color: hsl(215, 51%, 70%);
+}
+
+.cyan {
+    color: hsl(178, 100%, 50%);
+}
+
+.gray-blue {
+    color: hsl(215, 32%, 27%);
+}
+
+.white {
+    color: hsl(0, 0%, 100%);
+}
+
+/* body */
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* card */
+.card {
+    margin-top: 3%;
+    margin-bottom: 20px;
+}
+
+.card-area {
+    padding: 24px;
+}
+
+.hover:hover .mask,
+.hover:hover .mask-img {
+    visibility: visible;
+}
+
+.mask {
+    background-color: hsl(178, 100%, 50%);
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    bottom: 242px;
+    left: 24px;
+    border-radius: 10px;
+    opacity: 0.5;
+    visibility: hidden;
+}
+
+.mask-img {
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    right: 149px;
+    visibility: hidden;
+}
+
+.title-text:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.info-area {
+    padding-bottom: 20px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.icon {
+    padding-right: 7px;
+}
+
+.headshot-area {
+    margin-top: 10px;
+}
+
+.picture {
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-right: 20px;
+    width: 30px;
+}
+
+.headshot-text:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+/* copyright */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
