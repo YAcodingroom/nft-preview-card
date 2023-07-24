@@ -26,7 +26,7 @@ Users should be able to:
 ![screenshot hover](images/screenshot_hover.png)
 
 ### Links
-- Live Site URL: 
+- Live Site URL: https://yacodingroom.github.io/nft-preview-card/
 
 ## My process
 ### Built with
